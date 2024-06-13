@@ -1,0 +1,560 @@
+* {
+    margin: 0%;
+    padding: 0;
+}
+
+body {
+    background-color: #FFCD6D;
+}
+
+.drone {
+    background-color: rgba(255, 255, 255, 0.1);
+    position: relative;
+    width: 77px;
+    height: 77px;
+    top: 51px;
+    left: 64px;
+    border-radius: 19px;
+}
+
+.drone img {
+    position: relative;
+    width: 38px;
+    height: 38px;
+    top: 25px;
+    left: 16px;
+}
+
+.ecl {
+    position: absolute;
+    background: linear-gradient(298.63deg, #FFB424 15.28%, rgba(255, 180, 36, 0) 75.49%);
+    width: 81px;
+    height: 81px;
+    top: 25px;
+    left: 380px;
+    border-radius: 50%;
+    /* Make it a circle */
+    transform: rotate(76.63deg);
+    /* Corrected syntax for rotation */
+}
+
+.rect {
+    background-color: rgba(255, 255, 255, 0.1);
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 750px;
+    height: 77px;
+    top: -30px;
+    left: 400px;
+    border-radius: 19px;
+}
+
+.st1 {
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    position: relative;
+    width: 592px;
+    height: 29px;
+    top: 25px;
+    left: 50px;
+}
+
+.st2 {
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    position: relative;
+    width: 592px;
+    height: 29px;
+    top: 25px;
+    left: 125px;
+}
+
+.st2 img {
+    position: relative;
+    width: 26px;
+    height: 26px;
+}
+
+.bo {
+    background-color: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    width: 77px;
+    height: 77px;
+    top: 51px;
+    left: 1400px;
+    border-radius: 19px;
+}
+
+.bo p {
+    font-family: 'Inter';
+    color: #FFFFFF;
+    font-size: 100px;
+    font-weight: 5000;
+    line-height: 40px;
+    position: relative;
+    top: -35px;
+    left: 15px;
+}
+
+.big {
+    position: absolute;
+    background: linear-gradient(276.25deg, #FFAC0B 5.86%, rgba(253, 257, 118, 0) 80.78%);
+    width: 700px;
+    height: 700px;
+    top: 250x;
+    left: -112px;
+    border-radius: 50%;
+    /* Make it a circle */
+    transform: rotate(6.63deg);
+    /* Corrected syntax for rotation */
+}
+
+.bee img {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    top: 123px;
+    left: 190px;
+}
+
+.beel {
+    position: relative;
+    background: linear-gradient(276.25deg, #FFAC0B 5.86%, rgba(253, 257, 118, 0) 80.78%);
+    border-radius: 50%;
+    /* Make it a circle */
+    transform: rotate(90.63deg);
+    width: 130px;
+    height: 130px;
+    top: 15px;
+    left: 550px;
+}
+
+.beed {
+    position: absolute;
+    background: linear-gradient(298.63deg, #FFB424 15.28%, rgba(255, 180, 36, 0) 75.49%);
+    width: 81px;
+    height: 81px;
+    top: 900px;
+    left: 380px;
+    border-radius: 50%;
+    /* Make it a circle */
+    transform: rotate(76.63deg);
+    /* Corrected syntax for rotation */
+}
+
+.cen {
+    display: flex;
+    justify-content: space-around;
+}
+
+.right1 {
+    font-family: 'Inter';
+    color: #FFFFFF;
+    font-size: 52px;
+    font-weight: 1250;
+    line-height: 100px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: relative;
+    left: 300px;
+    top: 100px;
+}
+
+.beel1 {
+    position: relative;
+    background: linear-gradient(276.25deg, #FFAC0B 5.86%, rgba(253, 257, 118, 0) 80.78%);
+    border-radius: 50%;
+    /* Make it a circle */
+    transform: rotate(330.63deg);
+    width: 130px;
+    height: 130px;
+    top: -250px;
+    left: 402px;
+}
+
+.para {
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    position: relative;
+    top: 300px;
+    left: -178px
+}
+
+.but {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    top: 325px;
+    left: -290px;
+}
+
+.buttn1 {
+    font-family: 'Inter';
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: #FFAC0B;
+    background-color: #FFFFFF;
+    position: relative;
+    width: 180px;
+    height: 55px;
+    top: 12px;
+    left: 64px;
+    border-radius: 16px;
+    border-color: #FFFFFF;
+
+}
+
+.buttn2 {
+    font-family: 'Inter';
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+    background-color: #FFCD6D;
+    position: relative;
+    width: 180px;
+    height: 55px;
+    top: 12px;
+    left: 64px;
+    border-radius: 16px;
+    border-color: #FFFFFF;
+}
+
+.ed {
+    position: absolute;
+    width: 360px;
+    /* Adjust the width as needed */
+    height: 143px;
+    top: 790px;
+    right: 0%;
+    /* Adjust the right property */
+    border-radius: 25% 0% 0% 25%;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.ed1 {
+    font-family: Inter;
+    font-size: 23px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 47px;
+    width: fit-content;
+    letter-spacing: 0em;
+    position: relative;
+    left: 85px;
+    color: #FFFFFF;
+
+}
+
+.ed2 {
+    font-family: Inter;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 17px;
+    width: fit-content;
+    letter-spacing: 0em;
+    position: relative;
+    left: 85px;
+    color: #FFFFFF;
+}
+
+.ed3 {
+    font-family: 'Inter';
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0em;
+    width: fit-content;
+    position: relative;
+    left: 85px;
+    color: #FFFFFF;
+}
+
+.gb img {
+    position: absolute;
+    width: 270px;
+    height: 270px;
+    top: 670px;
+    left: 1000px;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------- */
+
+.hd2 {
+    font-family: Inter;
+    font-size: 38px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    position: relative;
+    width: 267px;
+    top: 140px;
+    left: 660px;
+}
+
+.hd1 {
+    font-family: Inter;
+    font-size: 38px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    position: relative;
+    width: 267px;
+    top: 145px;
+    left: 664px;
+}
+
+.hd3 {
+    font-family: Inter;
+    font-size: 38px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    position: relative;
+    width: 267px;
+    top: 110px;
+    left: 850px;
+
+}
+
+.slides {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.slides img {
+    position: relative;
+    width: 287px;
+    height: 287px;
+    top: 200px;
+    margin: 2% 2%;
+    margin-bottom: 10%;
+    cursor: pointer;
+}
+
+.img1 {
+    position: relative;
+    width: 335px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 25%;
+    height: 335px;
+    top: 1426px;
+    left: 71px;
+}
+
+.slides1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: Inter;
+    text-align: center;
+}
+
+.slides1 h1 {
+    position: relative;
+    width: 250px;
+    height: 34px;
+    top: 80%;
+    left: -2px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+}
+
+.slides1 p {
+    position: relative;
+    width: 250px;
+    height: 34px;
+    top: 80%;
+    left: -2px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+}
+
+.slides1 button {
+    position: relative;
+    width: 70px;
+    height: 32px;
+    top: 80%;
+    left: -2px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: #FFAC0B;
+    border-radius: 12px;
+    border-color: #FFFFFF;
+}
+
+.gra1 {
+    position: relative;
+    background: linear-gradient(276.25deg, #FFAC0B 5.86%, rgba(253, 257, 118, 0) 80.78%);
+    border-radius: 50%;
+    /* Make it a circle */
+    transform: rotate(32deg);
+    width: 200px;
+    height: 200px;
+    top: 80px;
+    left: 1240px;
+}
+
+.gra2 {
+    position: relative;
+    background: linear-gradient(276.25deg, #FFAC0B 5.86%, rgba(253, 257, 118, 0) 80.78%);
+    border-radius: 50%;
+    /* Make it a circle */
+    transform: rotate(52deg);
+    width: 100px;
+    height: 100px;
+    top: -80px;
+    left: 900px;
+}
+
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+.hd6 {
+    font-family: Inter;
+    font-size: 38px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    position: relative;
+    width: 267px;
+    top: -40px;
+    left: 660px;
+}
+
+.hd5 {
+    font-family: Inter;
+    font-size: 38px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    position: relative;
+    width: 267px;
+    top: -30px;
+    left: 664px;
+}
+
+.hd7 {
+    font-family: Inter;
+    font-size: 38px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    position: relative;
+    width: 267px;
+    top: -80px;
+    left: 815px;
+
+}
+
+.show {
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.2);
+    position: relative;
+    width: 1100px;
+    height: 346px;
+    top: 13px;
+    left: 214px;
+    border-radius: 103px;
+
+}
+
+.show1 img {
+    position: relative;
+    width: 462px;
+    height: 462px;
+    top: -137px;
+    left: 25px;
+}
+.show2{
+font-family: Inter;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+position: relative;
+top: 20%;
+}
+.show2 p{
+position: relative;
+top: 8%;
+width: 90%;
+}
+.show2 button{
+    font-family: 'Inter';
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color:#FFFFFF;
+    background-color:#f4cf8a;
+    position: relative;
+    width: 140px;
+    height: 45px;
+    top: 80px;
+    left: 4px;
+    border-radius: 16px;
+    border-color: #FFFFFF;
+}
+.show:first-child {
+    display: flex; /* Show only the first show div */
+}
+.lft{
+    cursor: pointer;
+    position: relative;
+    width: 28px;
+height: 28px;
+top: -166px;
+left: 237px;
+transform: rotate(180deg);
+}
+.rgt{
+    cursor: pointer;
+    position: relative;
+    width: 28px;
+height: 28px;
+top: -166px;
+left: 1207px;
+transform: rotate(0deg);
+}
